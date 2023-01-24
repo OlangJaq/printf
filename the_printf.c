@@ -3,8 +3,7 @@
 
 /**
  * -printf: a funtion that prints formated outputs to console
- *  @format:
- *  returns: 
+ * the whole implementtation of printf funrion. 
  */
 
 int printf(const char *format, ...){
