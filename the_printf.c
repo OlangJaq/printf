@@ -6,6 +6,8 @@
  * the whole implementtation of printf funrion. 
  */
 
+// int _printf(const char *format,)
+
 int printf(const char *format, ...){
 	va_list args;
 	int count = 0;
@@ -54,3 +56,6 @@ void print_string(char* s)
 		i++;
 	}
 }
+
+
+
