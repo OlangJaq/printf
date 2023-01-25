@@ -1,11 +1,3 @@
-#include <stdarg.h>
-#include <stdio.h>
-
-/**
- * -printf: a funtion that prints formated outputs to console
- * the whole implementtation of printf funrion. 
- */
-
 #include "main.h"
 #include <stdlib.h>
 
@@ -88,5 +80,3 @@ int _printf(const char *format, ...)
 	va_end(valist);
 	return (count);
 }
-
-
